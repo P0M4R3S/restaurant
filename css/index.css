@@ -1,0 +1,14 @@
+.nav-scroll {
+    position: fixed;
+    top: -100px; /* Inicialmente oculto */
+    width: 100%;
+    z-index: 999;
+    transition: top 0.3s ease-in-out;
+    height: 100px;
+    background-color: #1c2123;
+  }
+
+  .logo-nav{
+    width: 270px;
+    cursor: pointer;
+  }

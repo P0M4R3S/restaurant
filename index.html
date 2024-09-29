@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Modelo de restaurante</title>
 </head>
 <body>
-    
+    <div class="container-fluid nav-scroll">
+        <!--navegador-->
+        <div class="container h-100">
+        <div class="row d-flex justify-content-around h-100 align-items-center">
+            <div class="col-3 bg-danger">columna</div>
+            <div class="col-3 d-flex justify-content-center"><img class="logo-nav" src="img/logo-white.png" alt=""></div>
+            <div class="col-3 bg-secondary">columna3</div>
+        </div>
+        </div>
+    </div>
+    <div>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        <h1>Contenido</h1>
+        
+    </div>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(window).on("scroll", function() {
+            // Detectar el scroll
+            if ($(this).scrollTop() > 100) {
+                // Si se ha desplazado hacia abajo más de 100px, mostrar la barra
+                $(".nav-scroll").css("top", "0");
+            } else {
+                // Si se ha vuelto arriba, ocultar la barra
+                $(".nav-scroll").css("top", "-100px");
+            }
+            });
+        });
+    </script>
 </body>
 </html>
