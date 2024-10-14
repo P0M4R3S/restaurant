@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Modelo de restaurante</title>
 </head>
 <body>
@@ -38,50 +39,260 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        <h1>Contenido</h1>
-        
+        <div class="menuMovil d-lg-none">
+            <div class="row"><span>INICIO</span></div>
+            <div class="row"><span>MENÚ</span></div>
+            <div class="row"><span>SOBRE</span></div>
+            <div class="row"><span>ENCUENTRANOS</span></div>
+            <div class="row"><span>ORDEN</span></div>
+            <div class="row"><span>FACEBOOK</span></div>
+        </div>
     </div>
 
+    <!--Primer bloque de pantalla completa-->
+    <div class="primerBloque">
+        <div class="container-fluid navegador"><!--navegador-->
+            <div class="container h-100">
+                <div class="row d-none d-lg-flex justify-content-around h-100 align-items-center">
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-start"><div class="txtNavNegro txtNavNegroSel">INICIO</div></div>
+                            <div class="col d-flex align-items-center justify-content-start"><div class="txtNavNegro">MENÚ</div></div>
+                            <div class="col d-flex align-items-center justify-content-start"><div class="txtNavNegro">SOBRE</div></div>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center"><img class="logo-nav" src="img/logo-white.png" alt=""></div>
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-end"><div class="txtNavNegro">ENCUENTRANOS</div></div>
+                            <div class="col d-flex align-items-center justify-content-end"><div class="txtNavNegro">ORDEN</div></div>
+                            <div class="col d-flex align-items-center justify-content-end"><div class="txtNavNegro">FACEBOOK</div></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row h-100 d-flex d-lg-none align-items-center ">
+                    <div class="col-6 d-flex justify-content-start"><img class="logo-nav" src="img/logo-white.png" alt=""></div>
+                    <div class="col-5"></div>
+                    <div class="col-1 justify-content-end hamburguesa2">
+                        <span class="hamburguesaBlanca"></span>
+                        <span class="hamburguesaBlanca"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="menuMovil2 d-lg-none">
+                <div class="row"><span>INICIO</span></div>
+                <div class="row"><span>MENÚ</span></div>
+                <div class="row"><span>SOBRE</span></div>
+                <div class="row"><span>ENCUENTRANOS</span></div>
+                <div class="row"><span>ORDEN</span></div>
+                <div class="row"><span>FACEBOOK</span></div>
+            </div>
+        </div>
+
+        
+
+        <!--Contenido del primer bloque-->
+        <div class="container-fluid contenido1 h-75">
+            <div class="row h-100">
+              <div class="col-4 d-none d-xl-flex align-self-center d-flex justify-content-center align-items-center">
+                <img class="tomates" src="img/tomatos.png" alt="">
+              </div>
+              <div class="col-12 col-xl-4 align-self-center d-flex justify-content-center">
+                <img class="ham1" src="img/hamburguesa1.png" alt="">
+              </div>
+              <div class="col-4 d-none d-xl-flex align-self-start mt-5 d-flex justify-content-center align-items-center">
+                <img class="tomates" src="img/onions.png" alt="">
+              </div>
+            </div>
+
+            <div class="eslogan"><span data-aos="fade-up-right" data-aos-duration="2500">PRUEBA LA DIFERENCIA</span></div>
+            <div class="row d-none d-xl-flex">
+                <div class="col-4">
+                    <div class="row"><span class="cabecera1">LA HAMBURGUESA DE TERNERA</span></div>
+                    <div class="row"><span class="cabecera2">costillas tiernas, salchicha ahumada, tocino y queso cheddar con lechuga, tomate, BBQ de la casa y ranch.</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="segundoBloque">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-lg-3 d-none gris d-lg-flex justify-content-center align-items-center">
+                    No necesitas un tenedor de plata para comer una buena hamburguesa
+                </div>
+                <div class="col-10 col-lg-3 dorado d-flex justify-content-center align-items-center">
+                    Nuestras burguers
+                </div>
+                <div class="col-lg-3 d-none d-lg-flex gris d-flex justify-content-center align-items-center">
+                    Porque nunca jugamos con la salud de nadie
+                </div>
+            </div>
+
+            <div class="row justify-content-around mt-5">
+                <div class="col-10 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                    <div class="row" data-aos="zoom-in">
+                        <img src="img/fish-burger.png" alt="">
+                    </div>
+                    <div class="row d-lg-none">
+                        <span class="titulo">FISH BURGUER</span>
+                        <span class="subtitulo mt-3 mb-5">La vida es como una hamburguesa: cuanto más le agregas, mejor se vuelve</span>
+                    </div>
+                </div>
+                <div class="col-10 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                    <div class="row" data-aos="zoom-in">
+                        <img src="img/beef-burger.png" alt="">
+                    </div>
+                    <div class="row d-lg-none">
+                        <span class="titulo">BEEF BURGUER</span>
+                        <span class="subtitulo mt-3 mb-5">La hamburguesa para el cuerpo no es suficiente, debe haber una hamburguesa para el alma.</span>
+                    </div>
+                </div>
+                <div class="col-10 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                    <div class="row" data-aos="zoom-in">
+                        <img src="img/veggie-burger.png" alt="">
+                    </div>
+                    <div class="row d-lg-none">
+                        <span class="titulo">VEGGIE BURGUER</span>
+                        <span class="subtitulo mt-3 mb-5">Las rosas son rojas, las violetas son azules. La hamburguesa cuesta menos que la cena para dos</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-around mt-5">
+                <div class="col-3 d-none d-lg-flex">
+                    <div class="row">
+                        <span class="titulo">FISH BURGUER</span>
+                        <span class="subtitulo mt-3">La vida es como una hamburguesa: cuanto más le agregas, mejor se vuelve</span>
+                    </div>
+                </div>
+                <div class="col-3 d-none d-lg-flex">
+                    <div class="row">
+                        <span class="titulo">BEEF BURGUER</span>
+                        <span class="subtitulo mt-3">La hamburguesa para el cuerpo no es suficiente, debe haber una hamburguesa para el alma.</span>
+                    </div>
+                </div>
+                <div class="col-3 d-none d-lg-flex">
+                    <div class="row">
+                        <span class="titulo">VEGGIE BURGUER</span>
+                        <span class="subtitulo mt-3">Las rosas son rojas, las violetas son azules. La hamburguesa cuesta menos que la cena para dos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tercerBloque">
+        <div class="container">
+            <div class="row d-flex justify-content-center g-0">
+                <div class="col-10 col-lg-4 d-flex" data-aos="flip-up" data-aos-duration="1500">
+                    <img src="img/burger-deliciosa.jpg" alt="">
+                </div>
+                <div class="col-10 col-lg-4 d-flex bloque3 justify-content-start" style="background-color: white;" data-aos="flip-down" data-aos-duration="1500">
+                    <div class="d-flex flex-column align-items-start">
+                        <span class="titulo3">nuestros</span>
+                        <span class="subtitulo3">menus</span>
+                        <span class="texto3">
+                            Descubre una variedad de opciones deliciosas que hemos creado pensando en todos los gustos. Desde nuestras clásicas hamburguesas hasta opciones vegetarianas, cada plato está preparado con ingredientes frescos y de la mejor calidad. ¡Explora nuestros menús y encuentra tu favorito!
+                        </span>
+                        <div class="boton3 mt-auto">VER MENUS</div>
+                    </div>
+                </div>
+                <div class="col-10 col-lg-4 d-flex bloque3 justify-content-start" style="background-color: lightgrey;" data-aos="flip-up" data-aos-duration="1500">
+                    <div class="d-flex flex-column align-items-start">
+                        <span class="titulo3">nuestros</span>
+                        <span class="subtitulo3">restaurantes</span>
+                        <span class="texto3">
+                            Te invitamos a visitar cualquiera de nuestros restaurantes, donde encontrarás un ambiente acogedor y un servicio excepcional. Cada ubicación ha sido diseñada para ofrecerte la mejor experiencia gastronómica, ya sea que vengas a disfrutar de una comida en familia o a relajarte con amigos. ¡Ven y vive la experiencia única de nuestros restaurantes!
+                        </span>
+                        <div class="boton3 mt-auto" style="background-color: black;">UBICACIÓN</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cuartoBloque">
+        <div class="container-fluid p-0 h-100">
+            <div class="row d-flex g-0 h-100">
+                <div class=" col-12 col-lg-6 d-flex h-100">
+                    <img src="img/salsaTomate.jpg" alt="">
+                </div>
+                <div class="col-12 col-lg-6 d-flex flex-column align-items-center bloque4" data-aos-duration="1000">
+                    <span class="titulo4" data-aos="fade-down" data-aos-duration="1000">SALSA</span>
+                    <span class="titulo4" data-aos="fade-down" data-aos-duration="1000">ORIGINAL</span>
+                    <span class="de4" data-aos="fade-right" data-aos-duration="1000">de</span>
+                    <span class="subtitulo4" data-aos="fade-left" data-aos-duration="1000">TOMATE</span>
+                    <span class="texto4" data-aos="fade-up" data-aos-duration="1000">Disfruta de la auténtica experiencia de sabor con nuestra salsa de tomate, elaborada con tomates frescos y especias selectas. Perfecta para acompañar tus platos favoritos, desde pastas hasta pizzas, nuestra salsa realza cada bocado con un toque casero que deleitará tu paladar. ¡Descubre el sabor que transforma cada comida en una celebración!</span>
+                    <div class="boton4 mt-auto">VER MENUS</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="quintoBloque">
+        <div class="container-fluid p-0 h-100">
+            <div class="row d-flex g-0 h-100">
+                <div class="col-12 col-lg-6 d-flex flex-column align-items-center bloque5" data-aos-duration="1000">
+                    <span class="titulo5" data-aos="fade-down" data-aos-duration="1000" style="COLOR:rgb(82, 207, 82);">ENSALADAS</span>
+                    <span class="titulo5" data-aos="fade-down" data-aos-duration="1000">FRESCAS</span>
+                    <span class="texto5" data-aos="fade-up" data-aos-duration="1000">Nuestras ensaladas frescas son la elección perfecta para quienes buscan una opción ligera y saludable. Preparadas con ingredientes frescos y de temporada, cada ensalada está llena de color y sabor. Desde combinaciones clásicas hasta creaciones innovadoras, cada bocado es una explosión de frescura que te hará sentir bien. ¡Ven y disfruta de una experiencia revitalizante!</span>
+                    <div class="boton5 mt-auto">VER MENUS</div>
+                </div>
+                <div class=" col-12 col-lg-6 d-flex h-100 bg-primary">
+                    <img src="img/ensalda.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sextoBloque">
+        <div class="container-fluid h-100 fondo6 p-0 m-0">
+            <div class="row g-0">
+                <div class="col-12 titulo6">
+                    <span class="titulo6upper">EL</span>
+                    <span> SUPER HELADO</span>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-12"> <!-- Asegúrate de que el padding es 0 -->
+                    <img src="img/ice-cream.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
         $(document).ready(function(){
+            AOS.init();
+
+            $(".menuMovil").hide();
+            $(".menuMovil2").hide();
+
             $(window).on("scroll", function() {
             // Detectar el scroll
             if ($(this).scrollTop() > 20) {
                 // Si se ha desplazado hacia abajo más de 100px, mostrar la barra
                 $(".nav-scroll").css("top", "0");
+                $(".menuMovil2").hide();
             } else {
                 // Si se ha vuelto arriba, ocultar la barra
                 $(".nav-scroll").css("top", "-100px");
+                $(".menuMovil").hide();
             }
+            });
+
+            $(".hamburguesa").click(function(){
+                $(".menuMovil").toggle(100);
+            });
+
+            $(".hamburguesa2").click(function(){
+                $(".menuMovil2").toggle(100);
             });
         });
     </script>
